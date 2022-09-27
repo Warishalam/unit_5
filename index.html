@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+                <li>Home Page</li>
+             <a href="./individul.html">   <li>Individual Brewery Page</li></a>
+               <a href="./search.html"> <li>Search Page</li></a>
+            </ul>
+        </div>
+    </nav>
+  <div id="flex">
+    <h2>Choose Your Type here</h2>
+    <select name="" id="sel" onchange="show(value)">
+        <option value="micro">micro</option>
+        <option value="nano">nano</option>
+        <option value="regional">regional</option>
+        <option value="brewpub">brewpub</option>
+        <option value="large">large</option>
+        <option value="planning">planning</option>
+        <option value="bar">bar</option>
+        <option value="contract">contract</option>
+        <option value="proprietor">proprietor</option>
+        <option value="closed">closed</option>
+    </select>
+  </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Brewery_type</th>
+                <th>City</th>
+                <th>state</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+    </table>
+</body>
+</html>
+<script>
+   
+</script>
+<script src="./js/index.js"></script>
